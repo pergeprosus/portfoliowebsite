@@ -168,7 +168,6 @@ section#contact form textarea {
     padding: 0;
     animation: slideIn 0.7s ease-in-out;
     justify-content: space-evenly
-
 }
 
 #headertext {
@@ -189,7 +188,7 @@ input[value=send] {
 footer {
     background-color: pink;
     width: 100%;
-  
+
     margin: 0;
     padding: 0;
     align-self: flex-end;
@@ -198,8 +197,8 @@ footer {
 
 nav {
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
+    align-content: space-between;
 }
 
 .logo {
