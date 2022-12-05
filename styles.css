@@ -228,3 +228,9 @@ nav {
     display: flex;
     align-items: center;
 }
+
+#logoname {
+    display: flex;
+    align-items: center;
+    padding-right: 1rem;
+}
