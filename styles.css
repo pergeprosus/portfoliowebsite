@@ -95,9 +95,10 @@
 
   #intro {
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
     align-self: center;
     font-family: fredokaOne;
     color: white;
     font-size: 4rem;
+    justify-content: space-between;
   }
