@@ -54,7 +54,7 @@ header {
 header a {
     color: #fff;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 1rem;
 }
 
 /* Style the main sections of the page */
@@ -154,7 +154,7 @@ section#contact form {
 section#contact form label {
     width: 200px;
     /* Set the width of the form labels */
-    font-size: 18px;
+    font-size: 1rem;
     margin-bottom: 10px;
     /* Add some space between the label and the input field */
 }
@@ -182,7 +182,8 @@ section#contact form textarea {
     margin: 0;
     padding: 0;
     animation: slideIn 0.7s ease-in-out;
-    justify-content: space-evenly
+    justify-content: space-evenly;
+    padding-top: 2%;
 }
 
 #headertext {
@@ -201,13 +202,15 @@ input[value=send] {
 }
 
 footer {
-    background-color: pink;
     width: 100%;
-
     margin: 0;
     padding: 0;
     align-self: flex-end;
     display: flex;
+    font-family: gelasio;
+    color: white;
+    text-align: center;
+    justify-content: center;
 }
 
 nav {
