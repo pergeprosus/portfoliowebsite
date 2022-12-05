@@ -195,3 +195,13 @@ footer {
     align-self: flex-end;
     display: flex;
 }
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo {
+    filter: invert(100%);
+}
