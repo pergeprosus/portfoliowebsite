@@ -18,3 +18,15 @@ window.addEventListener('resize', function() {
     var progress = scrollTop / scrollDistance;
     progressBar.style.width = progress * 100 + '%';
 });
+
+
+
+// Rottaing text
+var words = ['Keith.', 'Driven.', 'Ambitious.'];
+var index = 1;
+
+setInterval(function() {
+    var rotatingText = document.getElementById('rotating-text');
+    rotatingText.innerHTML = words[index];
+    index = (index + 1) % words.length;
+}, 2000);
