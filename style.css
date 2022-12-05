@@ -1,22 +1,85 @@
+/* Use a clean, minimal design for the overall layout */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+}
 
- header {
-    position: sticky;
-    top: 0;
-    background-color: white;
-  }
-  
+/* Add some white space between elements for readability */
+main {
+  padding: 2em;
+}
 
-  body {
-    font-family: "Helvetica Neue", sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: white;
-  }
+header {
+  position: sticky;
+  top: 0;
+}
 
-  main {
-    padding: 2em;
-  }
+/* Use a sans-serif font for headings and a serif font for body text */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Helvetica Neue", sans-serif;
+}
+p, li, a {
+  font-family: "Georgia", serif;
+}
 
+/* Use a larger font size for headings and a smaller font size for body text */
+h1 {
+  font-size: 2.5em;
+}
+h2 {
+  font-size: 1.5em;
+}
+h3 {
+  font-size: 1.25em;
+}
+p, li, a {
+  font-size: 0.875em;
+}
+
+/* Use a bold font weight for headings and a normal font weight for body text */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+}
+p, li, a {
+  font-weight: normal;
+}
+
+/* Use a subtle box shadow to add some depth and dimension to the header */
+header {
+  box-shadow: 0 0.125em 0.25em rgba(0, 0, 0, 0.1);
+}
+
+/* Use a dark gray color for links and a light gray color for visited links */
 a {
-    text-decoration: none;
+  color: #333;
+}
+a:visited {
+  color: #666;
+}
+
+/* Use a light gray color for form labels and a white background for form inputs */
+label {
+  color: #666;
+}
+input[type="text"], textarea {
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 0.5em;
+}
+
+/* Use a dark gray background color for the submit button and a white text color */
+input[type="submit"] {
+  background-color: #333;
+  color: white;
+  padding: 0.5em 1em;
+  border: none;
+  cursor: pointer;
+}
+
+/* Use a hover effect to change the background color of the submit button on hover */
+input[type="submit"]:hover {
+  background-color: #555;
 }
