@@ -1,3 +1,6 @@
+ 
+ 
+ 
  @font-face {
     font-family: fredokaOne;
     src: url(FredokaOne-Regular.ttf);
@@ -51,12 +54,18 @@
 
   section {
       border-bottom: 1rem solid #555;
+      box-shadow: 0.5rem 0.5rem 1rem black;
       /* Add a border to the bottom of each section */
       padding: 20px;
       background-color: #444;
       color: #fff;
       margin-top: 10%;
       animation: slideIn 0.5s ease-in-out;
+      opacity: 0;
+  }
+
+  section:target {
+    opacity: 1;
   }
 
 
@@ -119,6 +128,8 @@
     text-shadow: 0.4rem 0.4rem black;
     margin: 0;
     padding: 0;
+    animation: slideDown 0.5s ease-in-out;
+
   }
 
   #headertext {
