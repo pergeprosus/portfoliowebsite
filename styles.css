@@ -38,6 +38,17 @@
       margin-top: 10%;
   }
 
+
+  @keyframes slideIn {
+    from {
+      transform: translateX(-100%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+
+
   section {
       border-bottom: 1rem solid #555;
       /* Add a border to the bottom of each section */
@@ -45,6 +56,7 @@
       background-color: #444;
       color: #fff;
       margin-top: 10%;
+      animation: slideIn 0.5s ease-in-out;
   }
 
 
@@ -100,11 +112,21 @@
   #intro {
     display: flex;
     flex-direction: row;
-    align-self: center;
-    font-family: fredokaOne;
+    font-family: gelasio;
     color: white;
     font-size: 3rem;
-    justify-content: space-between;
     font-weight: lighter;
     text-shadow: 0.4rem 0.4rem black;
+    margin: 0;
+    padding: 0;
   }
+
+  #headertext {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin-left: 10rem;
+    text-align: center;
+
+  }
+
