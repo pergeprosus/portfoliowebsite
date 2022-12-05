@@ -29,7 +29,17 @@ html {
     src: url(SpaceMono-Regular.ttf);
 }
 
-
+@keyframes fade-in-out {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
 
 
 /* Add a dark background color to the page */
@@ -276,8 +286,7 @@ nav {
 
 #rotating-text {
     display: inline-block;
-    font-size: 6rem;
-    transition: all 4s;
-    
-
+    font-size: 4rem;
+    animation: fade-in-out 3s infinite;
+    animation-fill-mode: both;
 }

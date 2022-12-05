@@ -29,4 +29,4 @@ setInterval(function() {
     var rotatingText = document.getElementById('rotating-text');
     rotatingText.innerHTML = words[index];
     index = (index + 1) % words.length;
-}, 2000);
+}, 3000);
