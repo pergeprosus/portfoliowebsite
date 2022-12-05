@@ -15,6 +15,8 @@ main {
 header {
   position: sticky;
   top: 0;
+  padding-left: 1em;
+  background-color: white;
 }
 
 /* Use a sans-serif font for headings and a serif font for body text */
@@ -27,7 +29,7 @@ p, li, a {
 
 /* Use a larger font size for headings and a smaller font size for body text */
 h1 {
-  font-size: 2.5em;
+  font-size: 3em;
 }
 h2 {
   font-size: 1.5em;
