@@ -7,6 +7,7 @@ html {
     font-family: ropaSans;
     src: url(RopaSans-Regular.ttf);
 }
+
 @font-face {
     font-family: asap;
     src: url(Asap-VariableFont_wdth\,wght.ttf);
@@ -211,8 +212,7 @@ footer {
 
 nav {
     display: flex;
-    justify-content: space-between;
-    align-content: space-between;
+    align-items: center;
 }
 
 .logo {
@@ -221,8 +221,9 @@ nav {
 
 #name {
     color: white;
-    font-family:spaceMono;
+    font-family: spaceMono;
 }
+
 #shortcuts {
     display: flex;
     align-items: center;
