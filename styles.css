@@ -23,6 +23,14 @@ html {
     src: url(Gelasio-Regular.ttf);
 }
 
+@font-face {
+    font-family: spaceMono;
+    src: url(SpaceMono-Regular.ttf);
+}
+
+
+
+
 /* Add a dark background color to the page */
 body {
     background-color: #333;
@@ -213,9 +221,8 @@ nav {
 
 #name {
     color: white;
-    font-family:Verdana, Geneva, Tahoma, sans-serif
+    font-family:spaceMono;
 }
-
 #shortcuts {
     display: flex;
     align-items: center;
