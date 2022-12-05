@@ -7,6 +7,10 @@ html {
     font-family: ropaSans;
     src: url(RopaSans-Regular.ttf);
 }
+@font-face {
+    font-family: asap;
+    src: url(Asap-VariableFont_wdth\,wght.ttf);
+}
 
 
 @font-face {
@@ -72,6 +76,7 @@ section {
     margin-top: 10%;
     animation: slideIn 0.8s ease-in-out;
     border-radius: 0.5rem;
+    font-family: asap;
 }
 
 section:target {
@@ -206,3 +211,11 @@ nav {
     filter: invert(100%);
 }
 
+#name {
+    color: white;
+}
+
+#shortcuts {
+    display: flex;
+    align-items: center;
+}
