@@ -1,0 +1,15 @@
+
+ header {
+    position: sticky;
+    top: 0;
+    background-color: white;
+  }
+  
+
+  body {
+    font-family: "Helvetica Neue", sans-serif;
+  }
+
+  h1 {
+    color: white;
+  }
