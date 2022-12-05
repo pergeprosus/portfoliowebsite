@@ -1,45 +1,95 @@
   /* Add a dark background color to the page */
   body {
-    background-color: #333;
-}
+      background-color: #333;
+  }
 
-/* Style the header and make it sticky */
-header {
-    position: fixed;
-    width: 100%;
-    top: 0;
-    left: 0;
-    background-color: #222;
-    padding: 2rem;
-}
+  /* Style the header and make it sticky */
+  header {
+      position: fixed;
+      width: 100%;
+      top: 0;
+      left: 0;
+      background-color: #222;
+      padding: 2rem;
+      justify-content: space-between;
+      display: flex;
+      flex-direction: row;
+  }
 
-/* Style the shortcuts in the header */
-header a {
-    color: #fff;
-    text-decoration: none;
-    font-size: 18px;
-}
+  /* Style the shortcuts in the header */
+  header a {
+      color: #fff;
+      text-decoration: none;
+      font-size: 18px;
+  }
 
-/* Style the main sections of the page */
-main {
-    padding: 20px;
-    margin-top: 10%;
-}
+  /* Style the main sections of the page */
+  main {
+      padding: 20px;
+      margin-top: 10%;
+  }
 
-section {
-    border-bottom: 1rem solid #555; /* Add a border to the bottom of each section */
-    padding: 20px;
-    background-color: #444;
-    color: #fff;
-    margin-top: 10%;
-}
+  section {
+      border-bottom: 1rem solid #555;
+      /* Add a border to the bottom of each section */
+      padding: 20px;
+      background-color: #444;
+      color: #fff;
+      margin-top: 10%;
+  }
 
 
-/* Make the page responsive for different screen sizes and devices */
-@media (max-width: 768px) {
+  /* Make the page responsive for different screen sizes and devices */
+  @media (max-width: 768px) {
 
-    /* Make the sections take up the full width of the page on small screens */
-    section {
-        width: 100%;
-    }
-}
+      /* Make the sections take up the full width of the page on small screens */
+      section {
+          width: 100%;
+      }
+  }
+
+  header nav a {
+      padding: 10px 20px;
+      /* Add some padding to the top, right, bottom, and left sides of the a elements */
+      font-size: 2rem;
+      /* Increase the font size of the shortcuts */
+      color: #fff;
+      text-decoration: none;
+      font-weight: bolder;
+  }
+
+
+  section#contact form {
+      display: flex;
+      /* Use flexbox to position the form fields side by side */
+      flex-wrap: wrap;
+      /* Wrap the form fields to the next line on small screens */
+      padding: 20px;
+      background-color: #222;
+  }
+
+  section#contact form label {
+      width: 200px;
+      /* Set the width of the form labels */
+      font-size: 18px;
+      margin-bottom: 10px;
+      /* Add some space between the label and the input field */
+  }
+
+  section#contact form input,
+  section#contact form textarea {
+      width: 100%;
+      /* Make the input and textarea fields take up the full width of the form */
+      padding: 10px;
+      font-size: 16px;
+      border: none;
+      border-radius: 4px;
+      background-color: #333;
+      color: #fff;
+  }
+
+  #intro {
+    display: flex;
+    flex-direction: row-reverse;
+    align-self: center;
+  }
