@@ -237,3 +237,10 @@ nav {
     align-items: center;
     padding-right: 1rem;
 }
+
+#askill {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
