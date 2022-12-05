@@ -1,128 +1,158 @@
 @font-face {
     font-family: ropaSans;
     src: url(RopaSans-Regular.ttf);
- }
- 
- 
- @font-face {
+}
+
+
+@font-face {
     font-family: fredokaOne;
     src: url(FredokaOne-Regular.ttf);
- }
- @font-face {
+}
+
+@font-face {
     font-family: gelasio;
     src: url(Gelasio-Regular.ttf);
- }
- 
- /* Add a dark background color to the page */
-  body {
-      background-color: #333;
-  }
+}
 
-  /* Style the header and make it sticky */
-  header {
-      position: fixed;
-      width: 100%;
-      top: 0;
-      left: 0;
-      background-color: #222;
-      padding: 2rem;
-      justify-content: space-between;
-      display: flex;
-      flex-direction: row;
-  }
+/* Add a dark background color to the page */
+body {
+    background-color: #333;
+}
 
-  /* Style the shortcuts in the header */
-  header a {
-      color: #fff;
-      text-decoration: none;
-      font-size: 18px;
-  }
+/* Style the header and make it sticky */
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: #222;
+    padding: 2rem;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+}
 
-  /* Style the main sections of the page */
-  main {
-      padding: 20px;
-      margin-top: 10%;
-  }
+/* Style the shortcuts in the header */
+header a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Style the main sections of the page */
+main {
+    padding: 20px;
+    margin-top: 10%;
+}
 
 
-  @keyframes slideIn {
+@keyframes slideIn {
     from {
-      transform: translateX(-100%);
+        transform: translateX(-100%);
     }
+
     to {
-      transform: translateX(0);
+        transform: translateX(0);
     }
-  }
+}
 
 
-  section {
-      border-bottom: 1rem solid #555;
-      box-shadow: 0.5rem 0.5rem 1rem black;
-      /* Add a border to the bottom of each section */
-      padding: 20px;
-      background-color: #444;
-      color: #fff;
-      margin-top: 10%;
-      animation: slideIn 0.5s ease-in-out;
-      opacity: 0;
-  }
+section {
+    border-bottom: 1rem solid #555;
+    box-shadow: 0.5rem 0.5rem 1rem black;
+    /* Add a border to the bottom of each section */
+    padding: 20px;
+    background-color: #444;
+    color: #fff;
+    margin-top: 10%;
+    animation: slideIn 0.5s ease-in-out;
+    opacity: 0;
+}
 
-  section:target {
+section:target {
     opacity: 1;
-  }
+}
 
 
-  /* Make the page responsive for different screen sizes and devices */
-  @media (max-width: 768px) {
+/* Make the page responsive for different screen sizes and devices */
+@media (max-width: 768px) {
 
-      /* Make the sections take up the full width of the page on small screens */
-      section {
-          width: 100%;
-      }
-  }
+    /* Make the sections take up the full width of the page on small screens */
+    section {
+        width: 100%;
+    }
+}
 
-  header nav a {
-      padding: 10px 20px;
-      /* Add some padding to the top, right, bottom, and left sides of the a elements */
-      font-size: 2rem;
-      /* Increase the font size of the shortcuts */
-      color: #fff;
-      text-decoration: none;
-      font-weight: bolder;
-      font-family: ropaSans;
-  }
+header nav a {
+    padding: 10px 20px;
+    /* Add some padding to the top, right, bottom, and left sides of the a elements */
+    font-size: 2rem;
+    /* Increase the font size of the shortcuts */
+    color: #fff;
+    text-decoration: none;
+    font-weight: bolder;
+    font-family: ropaSans;
+    position: relative;
+}
 
+header nav a:before {
+    content: "";
+    /* Insert an empty element before the shortcut */
+    position: absolute;
+    /* Make the inserted element an absolute position element */
+    bottom: 0;
+    /* Position the element at the bottom of the shortcut */
+    left: 0;
+    /* Position the element at the left of the shortcut */
+    right: 0;
+    /* Position the element at the right of the shortcut */
+    height: 2px;
+    /* Set the height of the element to 2 pixels */
+    background-color: #fff;
+    /* Set the background color of the element to white */
+    opacity: 0;
+    /* Initially hide the element */
+    transition: all 0.3s ease-in-out;
+    /* Add a smooth transition to the element */
+}
 
-  section#contact form {
-      display: flex;
-      /* Use flexbox to position the form fields side by side */
-      flex-wrap: wrap;
-      /* Wrap the form fields to the next line on small screens */
-      padding: 20px;
-      background-color: #222;
-  }
+header nav a:hover:before {
+    opacity: 1;
+    /* Show the element when the mouse is over the shortcut */
+    width: 100%;
+    /* Make the element take up the full width of the shortcut */
+}
 
-  section#contact form label {
-      width: 200px;
-      /* Set the width of the form labels */
-      font-size: 18px;
-      margin-bottom: 10px;
-      /* Add some space between the label and the input field */
-  }
+section#contact form {
+    display: flex;
+    /* Use flexbox to position the form fields side by side */
+    flex-wrap: wrap;
+    /* Wrap the form fields to the next line on small screens */
+    padding: 20px;
+    background-color: #222;
+}
 
-  section#contact form input,
-  section#contact form textarea {
-      width: 100%;
-      /* Make the input and textarea fields take up the full width of the form */
-      padding: 10px;
-      font-size: 16px;
-      border: none;
-      border-radius: 4px;
-      background-color: #333;
-      color: #fff;
-  }
+section#contact form label {
+    width: 200px;
+    /* Set the width of the form labels */
+    font-size: 18px;
+    margin-bottom: 10px;
+    /* Add some space between the label and the input field */
+}
 
-  #intro {
+section#contact form input,
+section#contact form textarea {
+    width: 100%;
+    /* Make the input and textarea fields take up the full width of the form */
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: #333;
+    color: #fff;
+}
+
+#intro {
     display: flex;
     flex-direction: row;
     font-family: gelasio;
@@ -134,14 +164,13 @@
     padding: 0;
     animation: slideDown 0.5s ease-in-out;
 
-  }
+}
 
-  #headertext {
+#headertext {
     display: flex;
     flex-direction: column;
     padding: 0;
     margin-left: 10rem;
     text-align: center;
 
-  }
-
+}
