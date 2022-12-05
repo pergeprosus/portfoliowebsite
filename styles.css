@@ -71,6 +71,7 @@ section {
     color: #fff;
     margin-top: 10%;
     animation: slideIn 0.8s ease-in-out;
+    border-radius: 0.5rem;
 }
 
 section:target {
@@ -204,3 +205,4 @@ nav {
 .logo {
     filter: invert(100%);
 }
+
