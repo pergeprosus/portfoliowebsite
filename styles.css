@@ -1,0 +1,45 @@
+  /* Add a dark background color to the page */
+  body {
+    background-color: #333;
+}
+
+/* Style the header and make it sticky */
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: #222;
+    padding: 2rem;
+}
+
+/* Style the shortcuts in the header */
+header a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Style the main sections of the page */
+main {
+    padding: 20px;
+    margin-top: 10%;
+}
+
+section {
+    border-bottom: 1rem solid #555; /* Add a border to the bottom of each section */
+    padding: 20px;
+    background-color: #444;
+    color: #fff;
+    margin-top: 10%;
+}
+
+
+/* Make the page responsive for different screen sizes and devices */
+@media (max-width: 768px) {
+
+    /* Make the sections take up the full width of the page on small screens */
+    section {
+        width: 100%;
+    }
+}
