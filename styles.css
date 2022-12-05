@@ -167,7 +167,7 @@ section#contact form textarea {
     margin: 0;
     padding: 0;
     animation: slideIn 0.7s ease-in-out;
-
+    justify-content: space-evenly
 
 }
 
@@ -177,10 +177,21 @@ section#contact form textarea {
     padding: 0;
     margin-left: 10rem;
     text-align: center;
+    margin: 0;
 
 }
 
 input[value=send] {
     background-color: pink;
     opacity: 0;
+}
+
+footer {
+    background-color: pink;
+    width: 100%;
+  
+    margin: 0;
+    padding: 0;
+    align-self: flex-end;
+    display: flex;
 }
