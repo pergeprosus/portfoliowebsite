@@ -115,11 +115,18 @@ section:target {
 
 
 /* Make the page responsive for different screen sizes and devices */
-@media (max-width: 768px) {
-
+@media (min-width: 400px) {
+    
     /* Make the sections take up the full width of the page on small screens */
     section {
         width: 100%;
+    }
+    #headertext {
+        margin-left: 0%;
+    }
+    #projectcollection {
+        box-sizing: border-box;
+        flex-wrap: wrap;
     }
 }
 
@@ -213,17 +220,19 @@ section#contact form textarea {
     flex-direction: column;
     padding: 0;
     margin: 0;
+    min-width: 2rem;
+    max-width: 3rem;
+    width: 100%;
 }
 
 #headertext {
     display: flex;
     flex-direction: row;
     padding: 0;
-    margin-left: 15%;
     text-align: center;
     justify-content: space-between;
     align-items: center;
-    width: 20rem;
+    width: 100%;
     font-size: 6rem;
     font-weight: lighter;
 }
