@@ -525,15 +525,14 @@ section#about img {
     }
 
     #headertext,
-    #keith,
-    #subheadertext {
-        font-size: 5px;
+    #keith {
+        font-size: 2rem;
     }
 
     section {
         flex-direction: column;
         text-align: center;
-        font-size: 10px;
+        font-size: 1rem;
     }
 
     #about {
@@ -543,12 +542,17 @@ section#about img {
     header {
         position: fixed;
     }
+
+    #subheadertext {
+        font-family: spectralSC;
+        color: white;
+        font-size: 1rem;
+        text-shadow: none;
+    }
+
+    #shortcuts {
+        display: none;
+    }
 }
 
 
-#subheadertext {
-    font-family: spectralSC;
-    color: white;
-    font-size: 3.5rem;
-    text-shadow: none;
-}
