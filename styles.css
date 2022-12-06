@@ -74,6 +74,27 @@ header a {
     font-size: 1rem;
 }
 
+a {
+    text-decoration: none;
+}
+
+
+section a {
+    font-size: 3rem;
+    color: gold;
+    font-weight: bolder;
+    transition: all 0.1s;
+    text-shadow: 0.5rem 0.1rem 1rem black;
+}
+section a:hover {
+    font-size: 3rem;
+    color: white;
+    font-weight: bolder;
+    text-shadow: 0.5rem 0.1rem 1rem black;
+}
+
+
+
 /* Style the main sections of the page */
 main {
     padding: 20px;
@@ -115,7 +136,7 @@ section:target {
 
 
 /* Make the page responsive for different screen sizes and devices */
-@media (min-width: 400px) {
+@media (max-width: 600px) {
     
     /* Make the sections take up the full width of the page on small screens */
     section {
@@ -441,6 +462,7 @@ section#about img{
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 
 }
 
