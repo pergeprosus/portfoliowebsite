@@ -324,3 +324,10 @@ nav {
 #skills {
     font-size: 2rem;
 }
+
+#upbutton {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+
+}
