@@ -332,6 +332,25 @@ nav {
 }
 
 
+@keyframes rotate {
+    from {
+      transform: rotate(90deg);
+      opacity: 0;
+    }
+    to {
+      transform: rotate(0deg);
+      opacity: 1;
+    }
+    to {
+        transform: rotate(360deg);
+        opacity: 1;
+      }
+  }
+  
+
+
+
+
 #contact h2 {
     font-size: 3rem;
 }
@@ -386,8 +405,7 @@ section#about img{
 
 #keith {
     text-shadow: 1rem 0.1rem #00270a;
-    transition: rotateX(30deg) rotateY(45deg);
-    animation: slideIn 1.5s ease-in-out;
+    animation: rotate 1.3s linear;
     /* Add a perspective to make the rotation more realistic */
     font-size: 10rem;
     margin-left: 20%;
