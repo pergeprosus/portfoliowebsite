@@ -507,6 +507,11 @@ section#about img {
     font-size: 2rem;
 }
 
+#mobiledropdown {
+    visibility: hidden;
+}
+
+
 /* Make the page responsive for different screen sizes and devices */
 @media only screen and (max-width: 600px) {
     /* Make the sections take up the full width of the page on small screens */
@@ -552,6 +557,10 @@ section#about img {
 
     #shortcuts {
         display: none;
+    }
+
+    #mobiledropdown {
+        visibility:visible;
     }
 }
 
