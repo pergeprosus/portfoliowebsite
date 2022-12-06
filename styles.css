@@ -59,7 +59,7 @@ header {
     padding: 2rem;
     justify-content: space-between;
     display: flex;
-    flex-direction: row;
+    flex-direction: column-reverse;
 }
 
 /* Style the shortcuts in the header */
@@ -333,3 +333,4 @@ nav {
     margin-top: 1rem;
 
 }
+
