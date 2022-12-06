@@ -439,9 +439,10 @@ section#about img{
 
   #etchasketch {
     display: flex;
+    text-align: left;
   }
 
-  #etchasketch p {
+  #etchasketch #paragraph {
     flex: 1;
     font-size: 1.5rem;
   }
@@ -449,7 +450,8 @@ section#about img{
 #etchasketch h2 {
     font-size: 3rem;
 }
+#etchasketch h3 {
+    font-size: 2rem;
+}
 
-  #etchasketch img {
-    flex: 1;
-  }
+
