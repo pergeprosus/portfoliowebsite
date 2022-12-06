@@ -22,22 +22,6 @@ window.addEventListener('resize', function() {
 
 
 
-// This function will be called when the page is scrolled
-$(window).scroll(function() {
-    // Get the current scroll position
-    var scrollTop = $(this).scrollTop();
-  
-    // Iterate through all the section elements on the page
-    $('section').each(function() {
-      // Get the position of the section
-      var top = $(this).offset().top;
-  
-      // If the section is in view, fade it in
-      if (scrollTop + $(window).height() > top) {
-        $(this).fadeTo(10, 1);
-      }
-    });
-  });
 
 
 

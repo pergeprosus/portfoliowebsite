@@ -104,7 +104,6 @@ section {
     border-radius: 0.5rem;
     font-family: asap;
     text-align: center;
-    opacity: 0;
     transition: all 0.5s ease-in-out;
     height: 20%;
 }
@@ -482,6 +481,3 @@ section#about img{
     font-size: 2rem;
 }
 
-#subheadertext {
-    margin-left: 70%;
-}
