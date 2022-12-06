@@ -60,6 +60,7 @@ header {
     justify-content: space-between;
     display: flex;
     flex-direction: column-reverse;
+    z-index: 1;
 }
 
 /* Style the shortcuts in the header */
