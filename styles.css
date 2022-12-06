@@ -196,9 +196,8 @@ section#contact form textarea {
     text-shadow: 0.4rem 0.4rem black;
     margin: 0;
     padding: 0;
-    animation: slideIn 0.7s ease-in-out;
+    animation: slideIn 0.8s ease-in-out;
     justify-content: space-between;
-    padding-top: 2%;
 }
 
 #headertext {
@@ -255,6 +254,8 @@ nav {
     display: flex;
     align-items: center;
     padding-right: 1rem;
+    user-select: none;
+    pointer-events: none;
 }
 
 #askill {
@@ -287,6 +288,7 @@ nav {
     padding: 0;
     overflow: hidden;
     left: 0;
+    align-self: flex-end;
 }
 
 #rotating-text {
@@ -334,3 +336,7 @@ nav {
 
 }
 
+img {
+    pointer-events: none;
+    user-select: none;
+}
