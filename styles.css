@@ -209,11 +209,11 @@ section#contact form textarea {
 
 #headertext {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     padding: 0;
     margin-left: 15%;
     text-align: center;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     width: 20rem;
     font-size: 6rem;
