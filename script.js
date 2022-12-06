@@ -38,3 +38,10 @@ $(window).scroll(function() {
       }
     });
   });
+
+
+
+  $('#upbutton').click(function() {
+    // Set the scroll position of the page to 0
+    $(window).scrollTop(0);
+  });
