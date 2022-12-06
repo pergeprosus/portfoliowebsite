@@ -265,6 +265,10 @@ nav {
     user-select: none;
 }
 
+#logoname:hover {
+    cursor: pointer;
+}
+
 #askill {
     display: flex;
     flex-direction: column;

@@ -46,11 +46,10 @@ $(window).scroll(function() {
     $(window).scrollTop(0);
   });
 
-  $('#logoname').click(function() {
-    // Set the scroll position of the page to 0
-    $(window).scrollTop(0);
+  var div = document.getElementById('logoname');
+  div.addEventListener('click', function() {
+    window.location = 'index.html';
   });
-
 
 
 
