@@ -263,7 +263,6 @@ nav {
     align-items: center;
     padding-right: 1rem;
     user-select: none;
-    pointer-events: none;
 }
 
 #askill {
