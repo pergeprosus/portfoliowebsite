@@ -379,3 +379,14 @@ section#about img{
     /* Add a perspective to make the rotation more realistic */
     perspective: 500px;
 }
+
+
+#aproject {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.project {
+    box-shadow: 1rem  1rem black;
+}
