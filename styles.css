@@ -210,6 +210,10 @@ section#contact form textarea {
 
 #intro {
     animation: slideIn 0.8s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
 }
 
 #headertext {
@@ -478,4 +482,6 @@ section#about img{
     font-size: 2rem;
 }
 
-
+#subheadertext {
+    margin-left: 70%;
+}
