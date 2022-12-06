@@ -436,3 +436,20 @@ section#about img{
     width: 1rem;
     box-shadow: 1rem 1rem 0.5rem black;
   }
+
+  #etchasketch {
+    display: flex;
+  }
+
+  #etchasketch p {
+    flex: 1;
+    font-size: 1.5rem;
+  }
+
+#etchasketch h2 {
+    font-size: 3rem;
+}
+
+  #etchasketch img {
+    flex: 1;
+  }
