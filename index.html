@@ -64,7 +64,7 @@
 
         </section>
         <section id="projects">
-            <h2>Projects</h2>
+            <h2>Projects & Outlines</h2>
            
            
            <div id="projectcollection">
@@ -84,7 +84,6 @@
                 <h2>Signup Form</h2>
                 <img src="signupform.png" alt="HTML Logo" class="project" style="width:  9rem; height: 9rem;">
             </div>
-            <h2>Click For More Info</h2>
         </div>
         </section>
         <section id="skills">
@@ -129,16 +128,16 @@
         </section>
         <section id="contact">
             <h2>Want to get in touch? Shoot me a message!</h2>
-            <form>
-                <label for="name">Name:</label>
-                <input type="text" id="name" placeholder="Jane Doe">
-                <label for="email">Email:</label>
-                <input type="email" id="email" placeholder="johndoe@example.gov">
-                <label for="message">Message:</label>
-                <textarea id="message" placeholder="Enter your message here"></textarea>
-                <input type="submit" value="Send">
+            <form action="https://formspree.io/f/mzbwnrnv" method="POST">
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="name" placeholder="Jane Doe">
+              <label for="email" name="email">Email:</label>
+              <input type="email" id="email" name="email" placeholder="johndoe@example.gov">
+              <label for="message" name="messagelabel">Message:</label>
+              <textarea id="message" name="message" placeholder="Enter your message here"></textarea>
+              <input type="submit" name="submission" value="Send">
             </form>
-        </section>
+          </section>
         <img id="upbutton" src="arrow-up-circle.svg" alt="HTML Logo" class="logo" style="width: 5rem; height: 5rem;">
     </main>
     <footer>

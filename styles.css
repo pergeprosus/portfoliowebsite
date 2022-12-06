@@ -336,6 +336,10 @@ nav {
     font-size: 2rem;
 }
 
+#skills h2 {
+    font-size: 3rem;
+}
+
 #upbutton {
     display: block;
     text-align: center;
@@ -397,6 +401,7 @@ section#about img{
     flex-direction: row;
     justify-content: center;
     align-items: center;
+
 }
 
 #projects {
@@ -416,3 +421,9 @@ section#about img{
     box-sizing: border-box;
     transition: transform 0.1s;
   }
+
+  #projects h2 {
+    font-size: 3rem;
+  }
+
+  
