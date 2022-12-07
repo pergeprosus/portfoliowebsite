@@ -595,6 +595,14 @@ section#about img {
         position: fixed;
         left: 0;
     }
+    #dropdown ul {
+        list-style-type: none;
+        font-family: asap;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        justify-content: center;
+    }
 }
 
 
