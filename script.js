@@ -21,11 +21,12 @@ window.addEventListener('resize', function() {
 
 //scroll attempt
 $(document).ready(function() {
+  $('#dropdown').hide();
+
   $('#menubutton').click(function() {
     $('#dropdown').slideToggle();
   });
 
-  $('#dropdown').hide();
 });
 
 
