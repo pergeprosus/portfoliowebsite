@@ -30,6 +30,17 @@ $(document).ready(function() {
 });
 
 
+
+
+//Todo: make dropdown scroll back up after you click a section to go to
+
+
+
+
+
+
+
+
 //Scroll Up and Home Page function for bottom button
 //and header logo
   $('#upbutton').click(function() {
