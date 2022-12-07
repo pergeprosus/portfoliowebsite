@@ -586,9 +586,16 @@ section#about img {
         display: none;
     }
 
-    #mobiledropdown {
-        visibility:visible;
+    #dropdown {
+        background-color: pink;
+        z-index: 0;
+        text-align: left;
+        margin-top: 20px;
+        width: 100%;
+        position: fixed;
+        left: 0;
     }
 }
+
 
 
