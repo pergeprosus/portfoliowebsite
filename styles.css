@@ -565,6 +565,7 @@ section#about img {
         width: 100%;
         position: fixed;
         left: 0;
+        z-index: 1;
     }
 
     #dropdown ul {
@@ -575,7 +576,6 @@ section#about img {
         padding: 0;
         justify-content: center;
         color: white;
-        margin-top: 1.2rem;
     }
 
     #dropdown li {
