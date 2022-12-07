@@ -19,13 +19,6 @@ window.addEventListener('resize', function() {
     progressBar.style.width = progress * 100 + '%';
 });
 
-//Function for dropdown menu for mobile view
-$('.menu-button').click(function() {
-  $('.dropdown-menu').slideToggle();
-  if (!$('.dropdown-menu').is(':visible')) {
-    $('.dropdown-menu').slideUp();
-  }
-});
 
 
 
