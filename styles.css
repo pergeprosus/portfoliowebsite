@@ -265,7 +265,6 @@ footer {
 
 nav {
     display: flex;
-    justify-content: space-between;
     align-items: center;
 }
 
@@ -628,7 +627,8 @@ section#about img {
     }
 
     nav {
-        justify-content: space-evenly;
+        justify-content: space-around;
+        align-items: center;
     }
 
 
