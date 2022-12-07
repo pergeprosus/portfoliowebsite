@@ -432,8 +432,8 @@ section#about img {
     animation: rotate 1.3s linear;
     /* Add a perspective to make the rotation more realistic */
     font-size: 10rem;
-    margin-left: 20%;
     align-self: center;
+    margin-left: 2rem;
 }
 
 
