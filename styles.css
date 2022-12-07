@@ -522,6 +522,10 @@ section#about img {
 
 .menu-container {
     position:relative;
+    color: pink;
+    z-index: 2;
+    background-color: blue;
+
 }
 
 .dropdown-menu {
