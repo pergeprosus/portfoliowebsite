@@ -19,7 +19,14 @@ window.addEventListener('resize', function() {
     progressBar.style.width = progress * 100 + '%';
 });
 
+//scroll attempt
+$(document).ready(function() {
+  $('#menubutton').click(function() {
+    $('#dropdown').slideToggle();
+  });
 
+  $('#dropdown').hide();
+});
 
 
 //Scroll Up and Home Page function for bottom button
