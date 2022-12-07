@@ -2,6 +2,9 @@ html {
     scroll-behavior: smooth;
 }
 
+* {
+    text-decoration: none;
+}
 
 @font-face {
     font-family: ropaSans;
@@ -587,7 +590,8 @@ section#about img {
     }
 
     #dropdown {
-        background-color: black;
+        background-color: #4C4C4C;
+        ;
         z-index: 0;
         text-align: left;
         margin-top: 20px;
@@ -606,9 +610,18 @@ section#about img {
         margin-top: 1.2rem;
     }
     #dropdown li {
-        border-bottom: 0.1px solid white;
         border-radius: 2%;
+        border-top: 0.1px solid white;
         text-decoration: none;
+        padding: 3px;
+    }
+
+    #dropdown li a {
+        color: white;
+    }
+    #dropdown li a:visited {
+        text-decoration: none;
+        color: white;
     }
 }
 
