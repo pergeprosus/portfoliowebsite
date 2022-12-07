@@ -608,6 +608,7 @@ section#about img {
     #dropdown li {
         border-bottom: 0.1px solid white;
         border-radius: 2%;
+        text-decoration: none;
     }
 }
 
