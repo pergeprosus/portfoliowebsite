@@ -512,6 +512,28 @@ section#about img {
 }
 
 
+.dropdown-menu {
+    /* Other styles... */
+    transition: height 0.5s ease;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+
+.menu-container {
+    position:relative;
+}
+
+.dropdown-menu {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    /* Other styles... */
+  }
+
+
+
+
 /* Make the page responsive for different screen sizes and devices */
 @media only screen and (max-width: 600px) {
     /* Make the sections take up the full width of the page on small screens */

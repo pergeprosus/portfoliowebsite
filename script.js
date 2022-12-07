@@ -22,6 +22,9 @@ window.addEventListener('resize', function() {
 //Function for dropdown menu for mobile view
 $('.menu-button').click(function() {
   $('.dropdown-menu').toggle();
+  if (!$('.dropdown-menu').is(':visible')) {
+    $('.dropdown-menu').css('display', 'none');
+  }
 });
 
 
