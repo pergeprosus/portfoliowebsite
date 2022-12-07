@@ -52,12 +52,10 @@ html {
 }
 
 
-/* Add a dark background color to the page */
 body {
     background-color: #333;
 }
 
-/* Style the header and make it sticky */
 header {
     position: fixed;
     width: 100%;
@@ -71,7 +69,6 @@ header {
     z-index: 1;
 }
 
-/* Style the shortcuts in the header */
 header a {
     color: #fff;
     text-decoration: none;
@@ -100,7 +97,6 @@ section a:hover {
 
 
 
-/* Style the main sections of the page */
 main {
     padding: 20px;
     margin-top: 10%;
@@ -121,7 +117,6 @@ main {
 section {
     border-bottom: 1rem solid #555;
     box-shadow: 0.5rem 0.5rem 1rem black;
-    /* Add a border to the bottom of each section */
     padding: 20px;
     background-color: #444;
     color: #fff;
@@ -147,9 +142,7 @@ section:target {
 
 header nav a {
     padding: 10px 20px;
-    /* Add some padding to the top, right, bottom, and left sides of the a elements */
     font-size: 2rem;
-    /* Increase the font size of the shortcuts */
     color: #fff;
     text-decoration: none;
     font-weight: bolder;
@@ -159,53 +152,37 @@ header nav a {
 
 header nav a:before {
     content: "";
-    /* Insert an empty element before the shortcut */
     position: absolute;
-    /* Make the inserted element an absolute position element */
     bottom: 0;
-    /* Position the element at the bottom of the shortcut */
     left: 0;
-    /* Position the element at the left of the shortcut */
     right: 0;
-    /* Position the element at the right of the shortcut */
     height: 2px;
-    /* Set the height of the element to 2 pixels */
     background-color: #fff;
-    /* Set the background color of the element to white */
     opacity: 0;
-    /* Initially hide the element */
     transition: all 0.3s ease-in-out;
-    /* Add a smooth transition to the element */
 }
 
 header nav a:hover:before {
     opacity: 1;
-    /* Show the element when the mouse is over the shortcut */
     width: 100%;
-    /* Make the element take up the full width of the shortcut */
 }
 
 section#contact form {
     display: flex;
-    /* Use flexbox to position the form fields side by side */
     flex-wrap: wrap;
-    /* Wrap the form fields to the next line on small screens */
     padding: 20px;
     background-color: #222;
 }
 
 section#contact form label {
     width: 200px;
-    /* Set the width of the form labels */
     font-size: 1rem;
     margin-bottom: 10px;
-    /* Add some space between the label and the input field */
 }
 
 section#contact form input,
 section#contact form textarea {
     width: 100%;
-    /* Make the input and textarea fields take up the full width of the form */
     padding: 10px;
     font-size: 2rem;
     border: none;
@@ -430,7 +407,6 @@ section#about img {
 #keith {
     text-shadow: 2px 3px #00270a;
     animation: rotate 1.3s linear;
-    /* Add a perspective to make the rotation more realistic */
     font-size: 10rem;
     align-self: center;
     margin-left: 2rem;
@@ -512,7 +488,6 @@ section#about img {
 
 
 .dropdown-menu {
-    /* Other styles... */
     transition: height 0.5s ease;
     position: absolute;
     bottom: 0;
@@ -531,15 +506,12 @@ section#about img {
     position: absolute;
     bottom: 0;
     right: 0;
-    /* Other styles... */
 }
 
 
 
 
-/* Make the page responsive for different screen sizes and devices */
 @media only screen and (max-width: 600px) {
-    /* Make the sections take up the full width of the page on small screens */
 
     #social {
         display: none;
@@ -651,7 +623,6 @@ section#about img {
 
 @media (min-width: 601px) {
 
-    /* styles for non-mobile devices */
     #menu-button,
     #menubutton {
         visibility: hidden;
