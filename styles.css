@@ -637,6 +637,15 @@ section#about img {
     #projects {
         font-size: 50px;
     }
+
+    #blogtext {
+        color: white;
+        font-family: asap;
+        scale: 0.7;
+    }
+    #construction {
+        color: yellow;
+    }
 }
 
 @media (min-width: 601px) {
@@ -653,7 +662,18 @@ section#about img {
 }
 
 
-
+#blogtext {
+    color: white;
+    font-family: asap;
+    font-size: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#construction {
+    color: yellow;
+}
 
 
 
