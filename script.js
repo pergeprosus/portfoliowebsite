@@ -33,6 +33,8 @@ $(document).ready(function() {
 
 
 //Todo: make dropdown scroll back up after you click a section to go to
+//Todo: add header with fixed stuf to other pages
+//Todo: set up placeholder content and prepare for launch
 
 
 
