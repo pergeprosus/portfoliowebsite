@@ -428,7 +428,7 @@ section#about img {
 }
 
 #keith {
-    text-shadow: 1rem 0.1rem #00270a;
+    text-shadow: 2px 3px #00270a;
     animation: rotate 1.3s linear;
     /* Add a perspective to make the rotation more realistic */
     font-size: 10rem;
@@ -570,7 +570,7 @@ section#about img {
     }
 
     #keith {
-        font-size: 2rem;
+        font-size: 3rem;
         margin-left: 1rem;
         font-weight: bolder;
     }
@@ -633,6 +633,10 @@ section#about img {
     #lefttext h2 {
         font-size: 2rem;
     }
+
+    #projects {
+        font-size: 50px;
+    }
 }
 
 @media (min-width: 601px) {
@@ -643,6 +647,8 @@ section#about img {
         visibility: hidden;
         display: none;
     }
+
+
 
 }
 
@@ -663,7 +669,9 @@ section#about img {
     display: flex;
     flex-direction: row;
     justify-content: center;
-
 }
 
-
+#projects {
+    align-items: center;
+    color: #00ff40;
+}
