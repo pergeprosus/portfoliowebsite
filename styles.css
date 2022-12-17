@@ -667,3 +667,7 @@ section#about img {
     align-items: center;
     color: #00ff40;
 }
+
+#projectimage {
+    width: 50rem;
+}
