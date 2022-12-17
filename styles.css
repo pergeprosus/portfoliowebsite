@@ -619,6 +619,7 @@ section#about img {
     #construction {
         color: yellow;
     }
+
 }
 
 @media (min-width: 601px) {
@@ -628,7 +629,9 @@ section#about img {
         visibility: hidden;
         display: none;
     }
-
+    #projectimage {
+        width: 50rem;
+    }
 
 
 }
@@ -668,6 +671,3 @@ section#about img {
     color: #00ff40;
 }
 
-#projectimage {
-    width: 50rem;
-}
