@@ -668,3 +668,23 @@ section#about img {
     color: #00ff40;
 }
 
+.logo-size {
+    width: 50px;
+    height: 50px;
+}
+
+.project-size {
+    width: 100%;
+    height: auto;
+}
+
+.aproject {
+    margin: 20px;
+    padding: 20px;
+}
+
+.askill {
+    margin: 10px;
+    padding: 10px;
+}
+
